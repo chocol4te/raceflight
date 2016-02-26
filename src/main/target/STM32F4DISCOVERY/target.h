@@ -41,6 +41,9 @@
 #define L3GD20_SPI                      SPI1
 #define L3GD20_CS_PIN                   PE3
 
+#define LED_STRIP
+#define LED_STRIP_TIMER TIM16
+
 #define TARGET_IO_PORTA 0xffff
 #define TARGET_IO_PORTB 0xffff
 #define TARGET_IO_PORTC 0xffff
