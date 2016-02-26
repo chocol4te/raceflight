@@ -455,6 +455,7 @@ STM32F4xx_COMMON_SRC = \
 		   drivers/bus_i2c.c \
 		   drivers/bus_spi.c \
 		   drivers/gpio_stm32f4xx.c \
+		   drivers/light_led.c \
 		   drivers/inverter.c \
 		   drivers/pwm_mapping.c \
 		   drivers/pwm_output.c \
