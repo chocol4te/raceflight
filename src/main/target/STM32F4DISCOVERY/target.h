@@ -16,3 +16,27 @@
  */
 
 #pragma once
+
+#define TARGET_BOARD_IDENTIFIER "F4DI"
+#define USBD_PRODUCT_STRING "STM32 F4 Discovery"
+
+#define CONFIG_START_FLASH_ADDRESS 0x08000000 
+
+#define LED0    PD13 //Orange
+#define LED1    PD12 //Green
+#define LED2    PD14 //Red
+#define LED3    PD15 //Blue
+
+#define USE_SPI
+
+#define USE_SPI_DEVICE_1 //L3GD20
+#define SPI1_NSS_PIN            PA15
+#define SPI1_SCK_PIN            PA5
+#define SPI1_MISO_PIN           PA6
+#define SPI1_MOSI_PIN           PA7
+
+#define GYRO
+#define USE_GYRO_L3GD20
+
+#define L3GD20_SPI                      SPI1
+#define L3GD20_CS_PIN                   PE3
