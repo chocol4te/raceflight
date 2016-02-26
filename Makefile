@@ -929,13 +929,12 @@ MOTOLAB_SRC = \
 		   $(VCP_SRC)
 
 STM32F4DISCOVERY_SRC = $(STM32F4xx_COMMON_SRC) \
-		   drivers/accgyro_spi_mpu9250.c \
 		   drivers/barometer_ms5611.c \
 		   drivers/barometer_bmp280.c \
 		   drivers/compass_hmc5883l.c \
 		   drivers/compass_ak8963.c \
-		   drivers/light_ws2811strip.c \
-		   drivers/light_ws2811strip_stm32f4xx.c \
+		   drivers/accgyro_l3gd20.c \
+		   drivers/accgyro_lsm303dlhc.c \
 		   $(HIGHEND_SRC) \
 		   $(COMMON_SRC) \
 		   $(VCPF4_SRC)
